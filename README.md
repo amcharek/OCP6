@@ -9,41 +9,26 @@ In the scope of my DataScience training with Openclassrooms, I will have to help
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Prerequisites and Installing
 
 What things you need to install the software and how to install them
 
 ```
-!pip install nltk
+pip install nltk gensim sklearn zappa 
+
+zappa init
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Step 1
-
-```
-Give the example
-```
-
-Step 2
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+zappa deploy dev
 
 ## Built With
 
 * [jupyter Notebook](https://jupyter.org/) - The web framework used
 * [nltk](nltk.org) - Natural Language toolkit
+* [servrless] - Serverless framework and zappa for IAAC
 
 
 ## Authors
@@ -53,9 +38,3 @@ Add additional notes about how to deploy this on a live system
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc

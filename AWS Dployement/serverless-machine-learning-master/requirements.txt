@@ -1,0 +1,7 @@
+zappa
+numpy
+scipy
+scikit-learn
+nltk
+flask
+boto3
